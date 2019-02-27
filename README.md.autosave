@@ -5,3 +5,19 @@
 ```
 git init
 ```
+
+
+2. add files
+```
+git add .
+```
+
+3. make a commit
+```
+git commit -am "Initial Commit"
+```
+
+4.remove unwanted from versio ctrl
+```
+git rm test Makefile *.o *.pro.user
+```
