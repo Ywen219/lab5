@@ -11,9 +11,15 @@ class vec3
     vec3(vec3 &&)=default;
     vec3 & operator=(vec3 &&)=default;
 
+    vec3(float v_x, float v_y, float v_z) :
+        m_x{v_x}, m_y{v_y}, m_z{v_z}
+    {}
+
+
     float m_x = 0.0f;
     float m_y = 0.0f;
     float m_z = 0.0f;
 };
+
 
 #endif
